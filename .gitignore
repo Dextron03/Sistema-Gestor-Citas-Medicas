@@ -71,6 +71,15 @@ nunit-agent.log
 # The results of NuGet restore
 node_modules/
 
+# Web / Frontend (Vite)
+dist/
+dist-ssr/
+*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
 # OSS Index cache
 .ossindex/
 
